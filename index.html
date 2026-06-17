@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Delivery Travel Page </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/017/164/521/small/commercial-jet-plane-airliner-flying-png.png" alt="Logo" width="30" height="24">
+            Travel
+            </a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#menu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="us.html">About Us</a>
+                </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>   <!-- Clossing Nav Bar -->
+
+
+  <!-- Hero Section -->
+    <header class="container-fluid bg-warning py-5 mb-5 text-center">
+
+        <Section class="hero">
+            
+            <h1 class="display-1 fw-bold"> Travel Destinations</h1>
+
+            <h2 class="mb-3"> Be ready to enjoy!</h2>
+        
+            <div class="mb-3">
+                   
+                   <a class= "btn btn-outline-dark" href="#fotos"> Make your dreams come true NOW! </a>   
+
+            </div>
+            
+            <p>
+                We help travelers find their dream destinations by providing inspiration, travel tips, and unforgettable experiences. Start planning your next adventure with us today.
+            </p>
+        </Section> 
+    </header>   <!-- Clossing Hero Section -->
+
+    
+
+<!-- Carousel Section -->
+
+<section class= "container">
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+
+            
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <img src="https://wallpapers.com/images/hd/hermosopaisaje-de-el-chalten-q7jlmj4kai16dwt4.jpg" class="d-block w-100" alt="Chalten">
+                <div class="carousel-caption">
+                    <h3>El Chalten</h3>
+                    <p>Explore the impresive landscapes of La Patagonia.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/EWRWZLV7FZEM7C24TIEPFBJCP4.jpg" class="d-block w-100" alt="CABA">
+                <div class="carousel-caption">
+                    <h3>Buenos Aires</h3>
+                    <p>Explore de beauty of Buenos Aires.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://decepas.com/wp-content/uploads/2023/02/chapadmalal-acantilado-mar.jpg" class="d-block w-100" alt="MDP">
+                <div class="carousel-caption">
+                    <h3>Mar del Plata</h3>
+                    <p>Discover the cliffs of Mar del Plata</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+
+</section> <!-- Clossing Carousel Section -->
+
+
+
+<!-- Card Section -->
+<main class="container-md mt-4">
+
+   <div id="fotos" class="row">
+
+    <section class="col-12 col-md-4 mb-md-3 mb-5">
+        <div class="card">
+<img src="https://www.clarin.com/2022/03/11/qdwlv0sQyw_1200x0__1.jpg" alt="landscape">
+
+            <div class="card-body">
+    <h5 class="card-title">Flight</h5>
+    <p class="card-text">The best option at de best price.</p>
+    
+    <a class="btn btn-outline-warning" href="https://www.despegar.com.ar/"> Book your flight!</a>
+
+    </div>
+    </div>
+</section>
+<section class="col-12 col-md-4 mb-md-3 mb-5">
+  <div class="card">
+    <img src="https://news.airbnb.com/wp-content/uploads/sites/4/2019/06/PJM020719Q202_Luxe_WanakaNZ_LivingRoom_0264-LightOn_R1.jpg?w=2500" alt="airbnb">
+    <div class="card-body">
+  
+    <h5 class="card-title">Your next home</h5>
+   <p class="card-text">Choose the option that suites you the best.</p>
+
+    <a href="https://www.booking.com/index.es-ar.html?label=hotel-91102-es-oNrXyhXNWdN8mmu_pR4VUgS388764685184%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-368986596901%3Alp9218958%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YROH_CMrg4mpqkQY4n9ah3E&sid=04c21edf8d914ad44dadd75439d28c3f&gclid=Cj0KCQjw_7PRBhDcARIsAMjV7jnArG8mMDxIucY_UNrZYe2u7cVKMg3y80jW4vdW75uNl66dGY0jdOIaAhNoEALw_wcB&aid=311839&lang=es-ar&soz=1&lang_changed=1&logged_out=1" class="btn btn-outline-warning">Booking.com</a>
+    </div>
+    </div>
+</section>
+    <section class="col-12 col-md-4 mb-md-3 mb-5">
+
+     <div class="card">
+        <img src="https://www.travelandleisure.com/thmb/mePYBXbh8SyXAWCMG4VxKE6LIH4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-lead-image-EARLYAIRPORT0325-5296b501dfe64a71af4d8dd7c4b21486.jpg" alt="valija">
+  <div class="card-body">
+   <h5 class="card-title"> Enjoy your trip </h5>
+    <p class="card-text"> Be ready for your next adventure</p>
+    </div> 
+    </div> 
+    </section> 
+</div>
+<!-- Clossing Card Section -->
+
+
+
+</main>
+
+<!--Modal-->
+  <section class="text-center my-5">
+
+        <button
+            type="button"
+            class="btn btn-outline-warning"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal">
+
+            Travel Tips
+
+        </button>
+
+   
+        <div class="modal fade" id="myModal">
+
+            <div class="modal-dialog">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+
+                        <h5 class="modal-title">
+                            Travel Tips
+                        </h5>
+
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal">
+                        </button>
+
+                    </div>
+
+                    <div class="modal-body">
+
+                        <ul class="text-start">
+                            <li>Make sure your passport is valid.</li>
+                            <li>Consider purchasing travel insurance.</li>
+                            <li>Pack only the essentials and check baggage limits.</li>
+                            <li>Arrive at the airport at least 2 hours before the flight.</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="modal-footer">
+
+                        <button
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+
+                            Close
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section> <!-- Clossing Modal -->
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+
+    <p>Email: travel@gmail.com</p>
+
+    <p>
+        <a href="https://instagram.com" class="text-white">Instagram</a> |
+        <a href="https://facebook.com" class="text-white">Facebook</a>
+    </p>
+
+    <p>© 2026 Travel. All rights reserved.</p>
+
+</footer>
+    <!-- Clossing Footer -->
+</body>
+</html>
